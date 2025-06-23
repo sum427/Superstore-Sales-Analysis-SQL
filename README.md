@@ -18,7 +18,7 @@ Run the SQL scripts in your preferred SQL environment against the raw dataset. V
 - Data visualisation using Excel  
 - Data analysis and business insights extraction  
 
-#) Future Work
+# Future Work
 
 Future enhancements may include using Python or Tableau for advanced visualisation and predictive analytics.
 
