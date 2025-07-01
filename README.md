@@ -50,6 +50,22 @@ Before analysis, the dataset was cleaned using SQL:
 - Standardised `Order_Date` and `Ship_Date` formats (YYYY-MM-DD)
 - Checked for null values across key fields
 
+  
+*The example below highlights only a few affected columns from the original dataset to demonstrate key cleaning steps. The full dataset includes additional fields not shown here.*
+
+**Before cleaning:**
+| Order ID       | Order Date | Ship Date | Sales   |
+|----------------|------------|-----------|---------|
+| CA-2015-140795 | 02/01/2015 | 02/03/2015| $468.90 |
+| CA-2015-104269 | 03/01/2015 | 03/06/2015| $457.57 |
+
+**After cleaning:**
+
+| Order ID       | Order Date | Ship Date | Sales  |
+|----------------|------------|-----------|--------|
+| CA-2015-140795 | 2015-01-02 | 2015-03-02| 468.90 |
+| CA-2015-104269 | 2015-01-03 | 2015-06-03| 457.57 |
+
 See full SQL cleaning steps in: [`data-cleaning/cleaning_scripts.sql`](data-cleaning/cleaning_scripts.sql)
 
 ---
