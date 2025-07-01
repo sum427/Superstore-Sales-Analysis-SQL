@@ -1,27 +1,70 @@
-# Superstore Sales Analysis using SQL
+# Superstore Sales Analysis (SQL Project)
 
-This project analyses sales data from a Superstore dataset using SQL queries and Excel visualisations. It highlights key business insights on sales performance, customer segmentation and shipping efficiency to support data driven decision making.
+This project explores sales data from a fictional superstore, using SQL to uncover key business insights and Excel for data visualisation. It showcases skills in data extraction, transformation, cleaning and analytical reporting core competencies for a data analyst role.
 
-## Contents
+---
 
-- `data/` – Raw sales dataset (CSV format)  
-- `sql_scripts/` – SQL queries used for analysis  
-- `reports/` – Detailed project report with findings and visualisations  
+## Project Objectives
 
-# How to Use
+- Extract and query large datasets using SQL
+- Clean and prepare raw data for analysis
+- Derive useful insights using exploratory queries
+- Visualise key findings in a structured report
+- Practice real world data analysis workflows
 
-Run the SQL scripts in your preferred SQL environment against the raw dataset. Visualisations were created in Excel based on the query outputs.
+---
 
-# Skills & Tools Demonstrated
+## Tools Used
 
-- SQL querying and data aggregation  
-- Data visualisation using Excel  
-- Data analysis and business insights extraction  
+- **SQLite** – For running SQL queries and data cleaning
+- **Excel** – For raw data handling and visualisation
+- **Word** – For structured report writing
+- **GitHub** – For version control and project showcase
 
-# Future Work
+---
 
-Future enhancements may include using Python or Tableau for advanced visualisation and predictive analytics.
+## Project Structure
 
+- `data-cleaning/` – SQL scripts used to clean and prepare the dataset (e.g., formatting dates, removing symbols, handling nulls).
+- `data/` – Raw data used in the project (CSV format).
+- `reports/` – Final analytical report with visuals, key insights and recommendations (Word document).
+- `sql-scripts/` – All SQL queries used to analyse the data (e.g., sales trends, top customers, segment performance).
+- `README.md` – Project overview and documentation (this file).
 
+---
 
-Feel free to reach out if you have any questions!
+## Key Insights
+
+- **Technology** was the leading sales category ($458,615), closely followed by Furniture and Office Supplies.
+- **November and December** saw the highest sales across all years suggesting seasonal buying trends.
+- **Top customers** accounted for a significant portion of revenue highlighting the importance of retention strategies.
+- **Consumer segment** made up over 50% of total sales, suggesting a strong B2C focus.
+- **Shipping delays** were most common in Standard Class deliveries potential for logistics optimisation.
+
+---
+
+## Data Cleaning Overview
+
+Before analysis, the dataset was cleaned using SQL:
+- Removed currency symbols from the `Sales` column
+- Standardised `Order_Date` and `Ship_Date` formats (YYYY-MM-DD)
+- Checked for null values across key fields
+
+See full SQL cleaning steps in: [`data-cleaning/cleaning_scripts.sql`](data-cleaning/cleaning_scripts.sql)
+
+---
+
+## Report Output
+
+The report synthesises SQL outputs and Excel visuals, presenting trends, customer behaviour and recommendations.
+
+See full report: [`reports/Superstore_Sales_Analysis_Report.docx`](reports/Superstore_Sales_Analysis_Report.docx)
+
+---
+
+## Contact
+
+**Author:** Sumaya Mohamed  
+**Email:** Svmaya1@outlook.com 
+**GitHub:** github.com/sum427
+
