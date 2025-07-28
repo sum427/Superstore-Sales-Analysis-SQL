@@ -66,7 +66,7 @@ Before analysis, the dataset was cleaned using SQL:
 | CA-2015-140795 | 2015-01-02 | 2015-03-02| 468.90 |
 | CA-2015-104269 | 2015-01-03 | 2015-06-03| 457.57 |
 
-See full SQL cleaning steps in: [`data-cleaning/cleaning_scripts.sql`](data-cleaning/cleaning_scripts.sql)
+See full SQL cleaning steps in: [`data-cleaning/data_cleaning_queries.sql`](data_cleaning/data_cleaning_queries.sql)
 
 ---
 
