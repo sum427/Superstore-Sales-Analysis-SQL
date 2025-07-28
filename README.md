@@ -74,7 +74,7 @@ See full SQL cleaning steps in: [`data-cleaning/data_cleaning_queries.sql`](data
 
 The report synthesises SQL outputs and Excel visuals, presenting trends, customer behaviour and recommendations.
 
-See full report: [`reports/Superstore_Sales_Analysis_Report.docx`](reports/Superstore_Sales_Analysis_Report.docx)
+See full report: [`Report/Superstore_Sales_Analysis_Report.docx`](Report/Superstore_Sales_Analysis_Report.docx)
 
 ---
 
