@@ -81,6 +81,6 @@ See full report: [`Report/Superstore_Sales_Analysis_Report.docx`](Report/Superst
 ## Contact
 
 **Author:** Sumaya Mohamed  
-**Email:** Svmaya1@outlook.com 
+**Email:** svmaya74@gmail.com 
 **GitHub:** github.com/sum427
 
